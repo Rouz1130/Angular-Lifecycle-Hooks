@@ -1,27 +1,23 @@
-# LifecycleHooks
+# Lifecycle-Hooks: 01
+This is a tutorial to help a novice to Angular understand the implementaion of life cycle hooks in Angular. Life cycle hooks are methods that angular invokes on directives and components as it creates, changes, destroys them. They can fine tune behavior of components during creation, update and destruction
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+## What is Angular lifecycle hooks
+When an Angular application starts it creates and renders the root component. Then it creates its children and renders it. For each loaded component, it checks when its data bound properties change and updates them. It destroys the component and removes it from the DOM when no longer in use. Therefore Angualar lets us know when these events happen using Life cycle hooks. 
 
-## Development server
+## Angular lifecycle hooks
+* ngOnChanges
+* ngOnInit
+* ngDoCheck
+* ngAfterContentInit
+* ngAfterContentChecked
+* ngAfterViewInit
+* ngAfterViewChecked
+* ngOnDestroy
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies Used
+Angular 5
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+###
+July 3, 2018&nbsp; Rouz Majlessi
+<br/>
+www.rouzm.com
