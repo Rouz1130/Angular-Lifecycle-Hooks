@@ -14,6 +14,12 @@ When an Angular application starts it creates and renders the root component. Th
 * ngAfterViewChecked
 * ngOnDestroy
 
+## How to Use this appliaction tutorial
+1. Clone down repo
+2. Run npm install
+3. Run ng serve
+4. Press the show/hide button and view the developer console to see the lifecycle hooks.  
+
 ## Technologies Used
 Angular 5
 
