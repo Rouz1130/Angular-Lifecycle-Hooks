@@ -1,4 +1,4 @@
-# Lifecycle-Hooks: 01
+# Lifecycle-Hooks
 This is a tutorial to help a novice to Angular understand the implementaion of life cycle hooks in Angular. Life cycle hooks are methods that angular invokes on directives and components as it creates, changes, destroys them. They can fine tune behavior of components during creation, update and destruction
 
 ## What is Angular lifecycle hooks
